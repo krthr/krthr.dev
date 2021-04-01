@@ -2,7 +2,9 @@
   <div>
     <Navbar></Navbar>
 
-    <Nuxt />
+    <main class="container m-auto">
+      <Nuxt />
+    </main>
   </div>
 </template>
 
