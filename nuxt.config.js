@@ -20,7 +20,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ['@nuxtjs/tailwindcss'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -40,4 +40,8 @@ export default {
   build: {},
 
   content: {},
+
+  tailwindcss: {
+    jit: true,
+  },
 }
