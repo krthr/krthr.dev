@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .btn {
-  @apply btn btn-sm btn-ghost rounded-full;
+  @apply rounded-full;
 }
